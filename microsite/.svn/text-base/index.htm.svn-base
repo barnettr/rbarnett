@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Agents and Enemies</title>
+<link rel="stylesheet" href="Styles/main.css" type="text/css" media="screen" />
+    
+</head>
+<body id="pageBody" style="">
+
+    <div id="contentContainer">
+        <div id="nerfHome"><a href="../"></a></div>
+        <ul id="mailContainer">
+            <li id="mailIcon"></li>
+        </ul>
+        <div id="mail">
+            <p>SIGN UP FOR THE NEWSLETTER</p>
+        </div>
+        <div id="navBarHolder">
+            <ul id="navBar">
+                <li id="agents_and_enemies"><a href="../agents_and_enemies"></a></li>
+                <li id="debriefing"><a href="../debriefing"></a></li>
+                <li id="blasters"><a href="../blasters"></a></li>
+                <li id="training"><a href="../training"></a></li>
+                <li id="downloads"><a href="../downloads"></a></li>
+                <li id="media"><a href="../media"></a></li>
+            </ul>    
+        </div>
+        <div id="twoColumnContainer">
+            <div id="leftColumn">
+                <ul id="agentsNav">
+                    <li id="jackal"><a href="../jackal"></a></li>
+                    <li id="komodo"><a href="../komodo"></a></li>
+                    <li id="shane"><a href="../shane"></a></li>
+                    <li id="raven"><a href="../raven"></a></li>
+                    <li id="tango"><a href="../tango"></a></li>
+                </ul>
+            </div>
+            <div id="rightColumn">
+                <ul id="buyIt">
+                    <li id="today"><a href="../today"></a></li>
+                    <li id="action"><a href="../action"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div id="enemiesPanel">
+            <ul id="enemyDossier">
+                <li id="dossier"><a href="../dossier"></a></li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+        
+        <div id="footer">
+
+		<a id="rating_rp" title="Rating Pending" href="http://www.esrb.org/ratings/ratings_guide.jsp" target="_blank">
+			<img src="Images/rating_e10.gif" alt="Rating Pending" />
+		</a>
+		
+		<a id="logo_truste" title="Privacy Policy" href="http://www.ea.com/global/legal/privacy.jsp" target="_blank">
+			<img src="Images/logo_truste.gif" alt="Privacy Policy" />
+		</a>
+
+		<p id="footer_copy">
+			Game code and certain audio visual materials &copy; 2009 Electronic Arts Inc. All Rights Reserved.  HASBRO and its logo, NERF and N-STRIKE are trademarks of Hasbro and are used with permission. &copy; 2009 Hasbro. All Rights Reserved.  All other trademarks are the property of their respective owners.
+		</p>
+
+		<div id="footer_logos">
+			<ul>
+				
+				<li class="last">
+					<a id="logo_hasbro" title="Hasbro.com" href="http://hasbro.com" target="_blank">
+						<img src="Images/logo_hasbro.gif" alt="Hasbro.com" />
+					</a>
+				</li>
+				<li>
+					<a id="logo_wii" title="wii.com" href="http://www.wii.com" target="_blank">
+						<img src="Images/logo_wii.gif" alt="wii.com" />
+					</a>
+				</li>
+				<li>
+					<a id="logo_ea" title="EA.com" href="http://www.ea.com" target="_blank">
+						<img src="Images/logo_ea.gif" alt="EA.com" />
+					</a>
+				</li>
+				
+			</ul>
+		</div>
+
+		<div class="clear"></div>
+
+		<div id="footer_links">
+
+			<dl class="ea-platform-menu">
+				<dt>Popular Platforms</dt>
+				<dd><a href="http://www.ea.com/wii/">Wii</a></dd>
+				<dd><a href="http://www.ea.com/platform/pc-games">PC</a></dd>
+				<dd><a href="http://www.ea.com/platform/online-games">Online</a></dd>
+				<dd><a href="http://www.ea.com/platform/xbox-360-games">Xbox 360</a></dd>
+				<dd><a href="http://www.ea.com/platform/ps3-games">PS3</a></dd>
+				<dd><a href="http://www.ea.com/platform/ps2-games">PlayStation 2</a></dd>
+				<dd><a href="http://www.ea.com/platform/nds-games">Nintendo DS</a></dd>
+				<dd><a href="http://www.eamobile.com">Mobile</a></dd>
+			</dl>
+
+			<dl class="ea-genres-menu">
+				<dt>Popular Genres</dt>
+				<dd><a href="http://www.ea.com/genre/racing-games">Racing</a></dd>
+				<dd><a href="http://www.ea.com/genre/shooting-games">Shooting</a></dd>
+				<dd><a href="http://www.ea.com/genre/puzzle-games">Puzzle</a></dd>
+				<dd><a href="http://www.ea.com/genre/rpg-games">RPG</a></dd>
+				<dd><a href="http://www.ea.com/genre/kids-games">Kids</a></dd>
+				<dd><a href="http://www.ea.com/genre/strategy-games">Strategy</a></dd>
+				<dd><a href="http://www.ea.com/genre/simulation-games">Simulation</a></dd>
+				<dd><a href="http://www.easports.com">Sports</a></dd>
+			</dl>
+
+			<dl class="ea-dot-com-menu">
+				<dt>EA.com</dt>
+				<dd><a href="http://www.ea.com/studio/">Media</a></dd>
+				<dd><a href="http://www.ea.com/news">Video Game News</a></dd>
+				<dd><a href="http://www.ea.com/games">Search Games</a></dd>
+				<dd><a href="http://ea.onlineregister.com" rel="nofollow" target="_blank">Register My Game</a></dd>
+			</dl>
+
+			<ul class="ea-corporate-menu">
+				<li class="first"><a href="https://jobs.ea.com" rel="nofollow" target="_blank">Jobs</a></li>
+				<li><a href="http://aboutus.ea.com/" rel="nofollow" target="_blank">Corporate Info</a></li>
+				<li><a href="http://www.ea.com/custom/legal-notices" rel="nofollow">Legal Notices</a></li>
+				<li><a href="http://www.ea.com/custom/product-eulas" rel="nofollow">Product EULAs and Other Disclosures</a></li>
+				<li><a href="http://tos.ea.com/legalapp/WEBTERMS/US/en/PC/ " rel="nofollow" target="_blank">Terms of Service</a></li>
+				<li><a href="http://www.ea.com/2/privacy-policy" rel="nofollow" target="_blank">Privacy Policy <span class="red">Updated</span></a></li>
+			</ul>
+
+		</div>
+
+    </div>
+    </div>
+
+</body>
+</html>

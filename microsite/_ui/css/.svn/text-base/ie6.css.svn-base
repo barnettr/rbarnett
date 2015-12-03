@@ -1,0 +1,1057 @@
+
+/*
+.className {
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='FILEPATH GOES HERE - RELATIVE TO THE HTML DOC');			
+}
+
+*/
+/*  ********************************************************
+    Agent And Enemies page
+
+    ********************************************************
+*/
+div#overlay {
+	background: none !important;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/black-30.png,sizingMethod='scale');
+}
+div#download-overlay {
+    position: absolute;
+    background-image:url(/_ui/img/bg-download-overlay.gif) no-repeat scroll 0 0;
+}
+#t-and-c {
+    background: none !important;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/terms-and-conditions.png,sizingMethod='scale');
+}
+.continue {
+    background: none !important;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/ok-btn.png,sizingMethod='crop');
+}
+.cancel-link {
+    background: none !important;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/cancel-btn.png,sizingMethod='crop');
+}
+#training-holder {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/training-holder.png,sizingMethod='scale');
+}
+
+#nerfHome a 
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/NStrike_Home.png,sizingMethod='scale');
+}
+#mailIcon
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/newsletter.png,sizingMethod='crop');
+}
+#agents_and_enemies a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/agents.png,sizingMethod='crop');
+}
+#agents_and_enemies a.nav-on
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/agents-on.png,sizingMethod='crop');
+}
+#agents-on
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/weak-spots-off.png,sizingMethod='crop');  
+}
+#debriefing a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/debriefing.png,sizingMethod='crop');
+}
+#debriefing a.nav-on
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/debriefing-on.png,sizingMethod='crop');
+}
+#blasters a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/blasters.png,sizingMethod='crop');
+}
+#blasters a.nav-on
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/blasters-on.png,sizingMethod='crop');
+}
+#training a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/training.png,sizingMethod='crop');
+}
+#training a.nav-on
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/training-on.png,sizingMethod='crop');
+}
+#downloads a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/downloads.png,sizingMethod='crop');
+}
+#downloads a.nav-on
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/downloads-on.png,sizingMethod='crop');
+}
+#media a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/media.png,sizingMethod='crop');
+}
+#media a.nav-on
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/media-on.png,sizingMethod='crop');
+
+}
+
+#leftColumn
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/theAgents.png,sizingMethod='scale');
+}
+#jackal a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/jackal.png,sizingMethod='crop');
+    margin-left:0px;
+}
+#komodo a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/komodo.png,sizingMethod='crop');
+}
+#shane a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/shane.png,sizingMethod='crop');
+    margin-top:-20 !important;
+}
+#raven a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/raven.png,sizingMethod='crop');
+}
+#tango a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/tango.png,sizingMethod='crop');
+}
+
+#rightColumn
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/rightCallouts.png,sizingMethod='scale');
+}
+#today a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/buyItToday.png,sizingMethod='crop');
+}
+#action a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/action.png,sizingMethod='crop');
+}
+
+#enemiesPanel
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/enemiesPanel.png,sizingMethod='scale');
+}
+#dossier a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/dossier.png,sizingMethod='crop');
+    top:856px;
+    left:420px;
+}
+#dossierContainer
+{
+    position:static;
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/dossierContainer.png,sizingMethod='scale');
+}
+#dossier-ie6
+{
+    position:absolute;
+    left:19px;
+    top:179px;
+    width:995px;
+    width:995px;
+    height:738px;
+}
+#Today-debriefing a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/buyItToday.png,sizingMethod='crop');
+}
+
+
+/*  ********************************************************
+    Agents Section directory page
+
+    ********************************************************
+*/
+
+
+#sec-jackal a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/sec-jackal.png, sizingMethod='crop');
+}
+#sec-komodo a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/sec-komodo.png, sizingMethod='crop');
+}
+#sec-shane a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/sec-shane.png, sizingMethod='crop');
+}
+#sec-raven a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/sec-raven.png, sizingMethod='crop');
+}
+#sec-tango a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/sec-tango.png, sizingMethod='crop');
+}
+#sec-enemy a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/sec-enemy.png, sizingMethod='crop');
+}
+#tab_1
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/tab_1.png, sizingMethod='crop');
+}
+#tab_2
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/tab_2.png, sizingMethod='crop');
+}
+#tab_3
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/tab_3.png, sizingMethod='crop');
+}
+#tab_4
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/tab_4.png, sizingMethod='crop');
+}
+#tab_5
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/tab_5.png, sizingMethod='crop');
+}
+#prev-agent-btn a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/prev-char-btn.png, sizingMethod='crop');
+}
+#next-agent-btn a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/next-char-btn.png, sizingMethod='crop');
+}
+
+/*  ********************************************************
+    Enemies Dossier directory page
+
+    ********************************************************
+*/
+
+#sec-dossier a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/sec-dossier.png, sizingMethod='scale');
+}
+#spectre
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/spectre.png, sizingMethod='scale');
+}
+#sentry
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/sentry.png, sizingMethod='scale');
+}
+#hyperbomb
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/hyperbomb.png, sizingMethod='scale');
+}
+#juggernaut
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/juggernaut.png, sizingMethod='scale');
+}
+#predator
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/predator.png, sizingMethod='scale');
+}
+#vileplasm
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/vileplasm.png, sizingMethod='scale');
+}
+#gadfly
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/gadfly.png, sizingMethod='scale');
+}
+#BOB
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/BOB.png, sizingMethod='scale');
+}
+#buy-it-today
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/coming-soon.png, sizingMethod='scale');
+}
+#Today a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/buyItToday.png, sizingMethod='crop');
+}
+#play-it
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/play-it.png, sizingMethod='scale');
+}
+#play-now a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/play-now.png, sizingMethod='crop');
+}
+#see-it
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/see-it-in-action.png, sizingMethod='scale');
+}
+#Action a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/action.png, sizingMethod='crop');
+}
+
+/*  ********************************************************
+    Debriefing directory page
+
+    ********************************************************
+*/
+
+#debriefingContainer
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/debriefing-container.png, sizingMethod='scale');
+}
+#play-the-game
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/play-the-game.png, sizingMethod='scale');
+}
+#elite-areas
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/eliteAreas.png, sizingMethod='scale');
+}
+#switch
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/switch.png, sizingMethod='scale');
+}
+#revealing
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/revealing.png, sizingMethod='scale');
+}
+#customize-blasters
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/customize-blasters.png, sizingMethod='scale');
+}
+
+/*  ********************************************************
+    Debriefing directory page
+
+    ********************************************************
+*/
+
+#blastersContainer
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/blaster-container.png, sizingMethod='scale');
+}
+#icarus-blaster
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/icarus-blaster.png, sizingMethod='scale');
+}
+.new-icon
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/new-icon.png, sizingMethod='scale');
+}
+.new-icon-too
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/new-icon.png, sizingMethod='scale');
+}
+.real-icon
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/real-icon.png, sizingMethod='scale');
+}
+.real-icon-only
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/real-icon.png, sizingMethod='scale');
+}
+#cerberus-blaster
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/cerberus-blaster.png, sizingMethod='scale');
+}
+#hammerhead-blaster
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/hammerhead-blaster.png, sizingMethod='scale');
+}
+#longstrike-blaster
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/longstrike-blaster.png, sizingMethod='scale');
+}
+#raider-blaster
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/raider-blaster.png, sizingMethod='scale');
+}
+#maverick-blaster
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/maverick-blaster.png, sizingMethod='scale');
+}
+#longshot-blaster
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/longshot-blaster.png, sizingMethod='scale');
+}
+#vulcan-blaster
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/vulcan-blaster.png, sizingMethod='scale');
+}
+#recon-blaster
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/recon-blaster.png, sizingMethod='scale');
+}
+#crusher-blaster
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/crusher-blaster.png, sizingMethod='scale');
+}
+#goliathan-blaster
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/goliathan-blaster.png, sizingMethod='scale');
+}
+#hydra-blaster
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/hydra-blaster.png, sizingMethod='scale');
+}
+#semperfire-blaster
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/semperfire-blaster.png, sizingMethod='scale');
+}
+#spartan-blaster
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/spartan-blaster.png, sizingMethod='scale');
+}
+#stampede-blaster
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/stampede-blaster.png, sizingMethod='scale');
+}
+#vengeance-blaster
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/vengeance-blaster.png, sizingMethod='scale');
+}
+
+/*  ********************************************************
+    Debriefing directory page
+
+    ********************************************************
+*/
+
+#training-container
+{
+    position:static;
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/training-container.png, sizingMethod='scale');
+}
+#training-container-ie6
+{
+    position:absolute;
+    left:24px;
+    top:180px;
+    width:992px;
+    height:642px;   
+}
+
+/*  ********************************************************
+    Downloads directory page
+
+    ********************************************************
+*/
+
+#downloads-left-container
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/downloads-left-container.png, sizingMethod='scale');
+    position:static;
+    margin-top:30px;
+}
+#downloads-title
+{
+    margin-top:32px;
+}
+#downloads-right-container
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/rightCallouts.png, sizingMethod='scale');
+}
+#left-downloads-placeholder
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/downloads-placeholder.png, sizingMethod='scale');
+}
+#right-downloads-placeholder
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/downloads-placeholder.png, sizingMethod='scale');
+}
+#left-downloads-btn a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/downloads-btn.png, sizingMethod='crop');
+    top:306px;
+    cursor:pointer;
+}
+#right-downloads-btn a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/downloads-btn.png, sizingMethod='crop');
+    top:306px;
+    cursor:pointer;
+}
+#buddy-icons-row
+{
+    position:absolute;
+    top:315px;
+}
+#buddy-subtitle
+{
+    position:absolute;
+    left:11px;
+    top:-5px;
+    font-size: 15px; 
+    color: #f7e800; 
+    text-transform: uppercase;   
+}
+#downloads-left-container #videos-holder
+    {
+        background-image:url(../img/videos-holder.png);
+        background-position:0 0;
+        background-repeat:no-repeat;
+        width:550px;
+        height:313px;
+        position:relative;
+        margin-left:37px;
+        margin-top:0px;
+    }
+#buy-it-today-downloads
+{
+    position:absolute;
+    right:0px;
+    top:0px;
+}
+#buy-it-today-media
+{
+    position:static;
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/coming-soon.png, sizingMethod='crop');
+}
+#buy-it-media-ie6
+{
+    width:360px;
+    height:207px;
+    position:absolute;
+    float:right;
+    right:-14px;
+    top:2px;
+}
+#see-it-downloads
+{
+    width:366px;
+    height:264px;
+    background-image:url(../img/decode-msg-off.png);
+    background-repeat:no-repeat;
+    position:absolute;
+    top:0px;
+    right:376px;
+    cursor:pointer;
+    float:right;
+}
+#hold-place
+{
+    position:absolute;
+    left:25px;
+    top:179px;
+    width:993px;
+    height:1357px;
+}
+#blastersContainer
+{
+    position:static; 
+}
+#buddy-sec-jackal a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/sec-jackal.png, sizingMethod='crop');
+}
+#buddy-sec-komodo a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/sec-komodo.png, sizingMethod='crop');
+}
+#buddy-sec-shane a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/sec-shane.png, sizingMethod='crop');
+}
+#buddy-sec-raven a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/sec-raven.png, sizingMethod='crop');
+}
+#buddy-sec-tango a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/sec-tango.png, sizingMethod='crop');
+}
+#buddy-downloads-btn a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/downloads-btn.png, sizingMethod='crop');
+}
+
+/*  ********************************************************
+    Downloads directory page
+
+    ********************************************************
+*/
+#enemy
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/enemy.png, sizingMethod='scale');
+}
+#player-control-container
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/player-control-container.png, sizingMethod='scale');
+}
+#buy-it-today-home
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/coming-soon.png, sizingMethod='scale');
+}
+#see-it-home
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/red-reveal-off.png, sizingMethod='scale');
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/red-reveal-on.png, sizingMethod='scale');
+}
+#see-it-home:hover
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/red-reveal-on.png, sizingMethod='scale');
+}
+#browse-blasters-home
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/browse-blasters-container.png, sizingMethod='scale');
+}
+#browse-blaster-btn a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/browse-blaster-btn.png, sizingMethod='crop');
+}
+#play-it-home
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/leaderboard.png, sizingMethod='scale');
+}
+#play-now-home a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/play-now.png, sizingMethod='crop');
+}
+#buy-it-today-agents
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/coming-soon.png, sizingMethod='scale');
+} 
+#see-it-agents
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/weak-spots-on.png, sizingMethod='scale');
+}
+#see-it-blasters
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/hidden-areas-on.png, sizingMethod='scale');
+}
+.blaster-card a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/view-card.png, sizingMethod='crop');
+}
+#see-it-training
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/weak-spots-on.png, sizingMethod='crop');
+}
+#buy-it-today-downloads
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/coming-soon.png, sizingMethod='crop');
+}
+#see-it-downloads
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/decode-msg-on.png, sizingMethod='crop');
+}
+
+/*  ********************************************************
+    Media directory page
+
+    ********************************************************
+*/
+
+a#logo_hasbro
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/logo_hasbro.png, sizingMethod='scale');
+    cursor:pointer;
+}
+a#logo_ea
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/logo_ea.png, sizingMethod='scale');
+    cursor:pointer;
+}
+#see-it-red-reveal
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/red-reveal-on.png, sizingMethod='scale');
+}
+#training-container #switch-red
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/switch.png, sizingMethod='scale');
+}
+#training-container #red-placeholder-row ul#red-boxes li#rollover-holder
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/rollover-holder.png, sizingMethod='scale');
+}
+#training-container #red-placeholder-row ul#red-boxes li#position-two-holder
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/find-areas-off.png, sizingMethod='scale');
+}
+#training-container #red-placeholder-row ul#red-boxes li#position-three-holder
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/detect-enemy-off.png, sizingMethod='scale');
+}
+#jackal-dwnload
+{    
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/jackal-dwnload.png, sizingMethod='scale');
+}
+#komodo-dwnload
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/komodo-dwnload.png, sizingMethod='scale');
+} 
+#shane-dwnload
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/shane_dwnload.png, sizingMethod='scale');
+}
+#raven-dwnload
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/raven-dwnload.png, sizingMethod='scale');
+} 
+#tango-dwnload
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/tango-dwnload.png, sizingMethod='scale');
+}
+#downloads-media a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/videos.png, sizingMethod='crop');
+    cursor:pointer;
+}
+#downloads-media a:hover
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/videos.png, sizingMethod='crop');
+    cursor:pointer;
+}
+#downloads-screenshots a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/screenshots.png, sizingMethod='crop');
+    cursor:pointer;
+}
+#downloads-screenshots a:hover
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/screenshots.png, sizingMethod='crop');
+    cursor:pointer;
+}
+#Action-home a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/action.png, sizingMethod='crop');
+    cursor:pointer;
+}
+#Action-home a:hover
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/action.png, sizingMethod='crop');
+    cursor:pointer;
+}
+#training-container-ie6 #training-container #red-placeholder-row ul#red-boxes li#decode-messages
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/decode-messages-off.png, sizingMethod='scale');
+}
+#agentsRow
+{
+    position:static;
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/agents-detail-container.png, sizingMethod='crop');
+}
+#ie6Container
+{
+    float:left;
+    width:621px;
+    height:485px;
+    position:relative;
+    margin-top:0px;
+    margin-left:1px
+}
+#txt-collection-wrapper
+{
+    top:166px;
+}
+#tab_content
+{
+    width:560px;
+    height:296px;
+    position:absolute;
+    top:25px;
+    left:2px;
+}
+#prev-agent-btn a
+{
+    float:left;
+    width:270px;
+    height:62px;
+    cursor:pointer;
+    position:absolute;
+    top:458px;
+    left:55px
+}
+#next-agent-btn a
+{
+    float:left;
+    width:234px;
+    height:62px;
+    cursor:pointer;
+    position:absolute;
+    top:458px;
+    left:342px;
+}
+#nav-collection-wrapper
+{
+    position:static;
+}
+#tabs
+{
+    position:static;
+}
+#collection-ie6
+{
+    position:absolute;
+    top:95px;
+    left:40px;
+    width:660px;
+    vertical-align:top;
+}
+#tab_11
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/tab_11.png, sizingMethod='crop');
+}
+#tab_12
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/tab_12.png, sizingMethod='crop');
+}
+#tab_13
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/tab_13.png, sizingMethod='crop');
+}
+#tab_14
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/tab_14.png, sizingMethod='crop');
+}
+#tab_15
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/tab_15.png, sizingMethod='crop');
+}
+#tab_16
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/tab_16.png, sizingMethod='crop');
+}
+#thumbnail-background
+{
+    position:static;
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/thumbnail-background.png, sizingMethod='crop');
+}
+#thumbnail-background-ie6
+{
+    
+    width:985px;
+    height:194px;
+    position:relative;
+    top:685px;
+    left:25px;
+}
+#thumb-one a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/thumb-one.png, sizingMethod='crop');
+}
+#thumb-one a:hover
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/thumb-one-on.png, sizingMethod='crop');
+}
+#thumb-two a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/thumb-two.png, sizingMethod='crop');
+}
+#thumb-two a:hover
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/thumb-two-on.png, sizingMethod='crop');
+}
+#thumb-three a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/thumb-three.png, sizingMethod='crop');
+}
+#thumb-three a:hover
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/thumb-three-on.png, sizingMethod='crop');
+}
+#thumb-four a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/thumb-four.png, sizingMethod='crop');
+}
+#thumb-four a:hover
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/thumb-four-on.png, sizingMethod='crop');
+}
+#thumb-five a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/thumb-five.png, sizingMethod='crop');
+}
+#thumb-five a:hover
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/thumb-five-on.png, sizingMethod='crop');
+}
+#thumb-six a
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/thumb-six.png, sizingMethod='crop');
+}
+#thumb-six a:hover
+{
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/thumb-six-on.png, sizingMethod='crop');
+}
+#buy-it-today-screenshots 
+{
+    position:static;
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=/_ui/img/coming-soon.png, sizingMethod='crop');
+}
+#buy-it-screenshots-ie6
+{
+    width:360px;
+    height:207px;
+    position:absolute;
+    float:right;
+    right:-14px;
+    top:2px;
+}
+.screenshot_content
+{
+    position: absolute;
+    left:16px;
+    top:-41px;
+}
+
+

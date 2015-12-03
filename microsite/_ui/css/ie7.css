@@ -1,0 +1,153 @@
+#komodo a
+{
+    margin-top:24px;
+}
+#shane a
+{
+    margin-top:-26px;
+}
+#raven a
+{
+    margin-top:0px;
+}
+#tango a
+{
+    margin-top:-46px;
+}
+
+
+
+#sec-komodo a
+{
+    margin-top:-12px;
+}
+#sec-shane a
+{
+    margin-top:-24px;
+}
+#sec-raven a
+{
+    margin-top:-36px;
+}
+#sec-tango a
+{
+    margin-top:-48px;
+}
+#sec-enemy a
+{
+    margin-top:-62px;
+}
+#sec-dossier a
+{
+    margin-top:-62px;
+}
+#training-container p
+{
+    margin-left:42px;
+}
+#see-it-agents
+{
+}
+#see-it-agents:hover
+{
+    width:366px;
+    height:264px;
+    background-image:url(../img/weak-spots-on.png);
+    background-repeat:no-repeat;
+    position:relative;
+    margin-top:229px;
+    margin-right:-367px;
+    cursor:pointer;
+    float:right;
+}
+#see-it-blasters
+{
+}
+#see-it-blasters:hover
+{
+    width:366px;
+    height:264px;
+    background-image:url(../img/hidden-areas-on.png);
+    background-repeat:no-repeat;
+    position:relative;
+    cursor:pointer;
+    float:right;
+    margin-top:-183px;
+}
+#see-it-downloads
+{
+}
+#see-it-downloads:hover
+{
+    width:366px;
+        height:264px;
+        background-image:url(../img/decode-msg-on.png);
+        background-repeat:no-repeat;
+        position:relative;
+        margin-top:229px;
+        margin-right:-367px;
+        cursor:pointer;
+        float:right;
+}
+#see-it-red-reveal
+{
+}
+#see-it-red-reveal:hover
+{
+    width:366px;
+    height:264px;
+    background-image:url(../img/red-reveal-on.png);
+    background-repeat:no-repeat;
+    position:relative;
+    left:655px;
+    cursor:pointer;
+}
+#see-it-training
+{
+}
+#see-it-training:hover
+{
+    width:366px;
+        height:264px;
+        background-image:url(../img/weak-spots-on.png);
+        background-repeat:no-repeat;
+        position:relative;
+        margin-top:-182px;
+        cursor:pointer;
+        float:right;
+}
+#buddy-icons-row
+{
+    margin-left:42px;
+    margin-top:60px;
+    width:585px;
+    position:absolute;
+}
+#thumb-two a
+{
+    margin-top:16px;
+}
+#thumb-three a
+{
+    margin-top:4px;
+}
+#thumb-four  a
+{
+    margin-top:-10px;
+}
+#thumb-five  a
+{
+    margin-top:-22px;
+}
+#thumb-six  a
+{
+    margin-top:-34px;
+}
+#downloads-screenshots a
+{
+    margin-top:-14px;
+}
+#dossier a
+{
+    bottom:528px;
+}

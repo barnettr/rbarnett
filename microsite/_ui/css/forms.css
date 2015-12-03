@@ -1,0 +1,11 @@
+/* Generic Form styles _________________________________________ */	
+
+	label {}
+
+	input {}
+
+	textarea {
+		resize:none;
+	}
+
+/* Specific Form styles _________________________________________ */

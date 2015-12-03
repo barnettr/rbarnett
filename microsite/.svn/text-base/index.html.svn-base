@@ -1,0 +1,272 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Nerf N-Strike</title>
+<link rel="stylesheet" href="_ui/css/main.css" type="text/css" media="screen" />
+<!--[if lte IE 6]><link href="_ui/css/ie6.css" rel="stylesheet" type="text/css" media="all" /><![endif]-->
+<!--[if lte IE 7]><link href="_ui/css/ie7.css" rel="stylesheet" type="text/css" media="all" /><![endif]-->
+<link rel="stylesheet" href="_ui/css/sifr.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="_ui/css/sIFR-print.css" type="text/css" media="print" />
+<link rel="stylesheet" href="_ui/css/sIFR-screen.css" type="text/css" media="screen" />
+<script type="text/javascript" src="_ui/js/sifr.js"></script>
+<script type="text/javascript" src="_ui/js/sifr-config.js"></script>
+<script type="text/javascript" src="_ui/js/prototype.js"></script>
+<script type="text/javascript" src="_ui/js/main.js"></script>
+</head>
+<body id="pageBody" onload="startPix();">
+    
+	<div id="omnitureWrapper" style="display:none;"></div>
+	<script type="text/javascript">
+		/* Specify the Report Suite ID(s) to track here */
+		s_imageDisableFlag=0
+		if (window.location.host.toString().match(/\.ea(sports)?\.com$/)) {
+		// live
+		var s_account="eaeacom,eagamenerfelitena,eacasualbrandna,eaeacomna,eastudiohasbrona"
+		} else {
+		// dev
+		var s_account="eaeacomdev"
+		}
+	</script>
+	<script type="text/javascript" language="javascript">
+	    document.observe("dom:loaded", function(){
+	        
+	        popupWin = new PopUps({});
+	    
+	    });
+	    
+	    if (navigator.appName == 'Microsoft Internet Explorer')
+        {
+            var ua = navigator.userAgent;
+            var re  = new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})");
+            if (re.exec(ua) != null) {
+                var rv = parseFloat( RegExp.$1 );
+            }
+        }
+        if (navigator.appName == 'Microsoft Internet Explorer' && rv <= '6') {}
+        else {
+            
+            var timeDelay = 10; 
+
+            var Pix = new Array
+                ("_ui/img/red-reveal-off.png"
+                ,"_ui/img/red-reveal-on.png"
+            );
+
+            var howMany = Pix.length;
+            timeDelay *= 1000;
+            var PicCurrentNum = 0;
+            var PicCurrent = new Image();
+            PicCurrent.src = Pix[PicCurrentNum];
+            
+            function startPix() {
+                setInterval("showHideRed()", timeDelay);
+            }
+            
+            function showHideRed() {
+                PicCurrentNum++;
+                
+                if (PicCurrentNum == howMany) {
+                    PicCurrentNum = 0;
+                }
+               
+                PicCurrent.src = Pix[PicCurrentNum];
+                
+                $('see-it-home').setStyle({
+                    width: '359px',
+                    height: '264px',
+                    background: 'transparent url(' + PicCurrent.src + ')',
+                    position: 'relative',
+                    top: '24px',
+                    left: '0px'  
+                });
+                
+                $('see-it-home').observe('mouseover', function(event) {
+                    this.setStyle({background: 'transparent url(_ui/img/red-reveal-on.png)'});  
+                });
+                $('see-it-home').observe('mouseout', function(event) {
+                    this.setStyle({background: 'transparent url(_ui/img/red-reveal-off.png)'});
+                });
+            }
+        }
+	</script> 
+	<script src="http://www.ea.com/omni/s_code_remote_v02.js" type="text/javascript"></script>
+	<script type="text/javascript"> 
+		s_ea.pageName="NA:US:PLAY:HASBRO:MKT:NERF:NERFELITE:NERFELITE:HOME" 
+		s_ea.prop1="No ID" 
+		s_ea.prop2="NERFELITE" 
+		s_ea.prop3="PLAY" 
+		s_ea.prop4="NERF" 
+		s_ea.prop5="NERFELITE" 
+		s_ea.prop7="HASBRO" 
+		s_ea.prop9="MKT" 
+		s_ea.prop10="Home" 
+		s_ea.prop11="NA" 
+		s_ea.prop12="en_US" 
+		s_ea.prop15="General Info" 
+		s_ea.prop17="US" 
+		s_ea.prop18="US:NERFELITE" 
+		s_ea.eVar1="No ID" 
+		s_ea.eVar3="NERFELITE" 
+		s_ea.eVar17="US" 
+		s_ea.eVar18="NA" 
+		s_ea.eVar29=s_ea.setInitValOnce('US:NERFELITE:NERFELITE'); 
+		s_ea.eVar30="US:NERFELITE:NERFELITE" 
+		s_ea.eVar34="PLAY" 
+		/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/ 
+		if((s_imageDisableFlag == null) || (typeof (s_imageDisableFlag) == 'undefined') || (!s_imageDisableFlag)){ 
+		var s_code=s_ea.t();if(s_code)document.write(s_code) 
+		}//--></script> 
+	<!-- End SiteCatalyst code version: H.0. --> 
+	<script type="text/javascript" src="http://www.ea.com/omni/omniture_wrapper.js"></script>
+
+    <div id="contentContainer">
+        <div id="enemy"></div>
+        <ul>
+            <li id="nerfHome"><a href=""><img src="_ui/img/holder.gif" width="180" height="150" alt="" /></a></li>
+        </ul>
+        <ul id="mailContainer">
+            <li id="mailIcon"><a class="newsletter-popup" href="newsletter/index.html" onclick="omniLinkCall(this,'newsletter_link_click');"><img src="_ui/img/holder.gif" width="213" height="26" alt="" /></a></li>
+        </ul>
+        <div id="navBarHolder">
+            <ul id="navBar">
+                <li id="agents_and_enemies"><a href="agents-and-enemies/index.html"><img src="_ui/img/holder.gif" width="200" height="45" alt="" /></a></li>
+                <li id="debriefing"><a href="debriefing/index.html"><img src="_ui/img/holder.gif" width="120" height="45" alt="" /></a></li>
+                <li id="blasters"><a href="blasters/index.html"><img src="_ui/img/holder.gif" width="120" height="45" alt="" /></a></li>
+                <li id="training"><a href="training/index.html"><img src="_ui/img/holder.gif" width="120" height="45" alt="" /></a></li>
+                <li id="downloads"><a href="downloads/index.html"><img src="_ui/img/holder.gif" width="120" height="45" alt="" /></a></li>
+                <li id="media"><a href="media/index.html"><img src="_ui/img/holder.gif" width="120" height="45" alt="" /></a></li>
+            </ul>    
+        </div>
+        <div class="clear"></div>
+        
+        <div id="twoColumnContainer">
+            <div id="player-control-container">
+                <div id="player-controls-placeholder">
+                    
+                    <script src="http://player.ooyala.com/player.js?width=537&height=301&embedCode=94YW1uOtOnnQ_pXMRUY3WMlRQHEbWcSi&autoplay=1"></script><noscript><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" id="ooyalaPlayer_7hmob_g0si3x83" width="537" height="301" codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab"><param name="movie" value="http://player.ooyala.com/player.swf?embedCode=94YW1uOtOnnQ_pXMRUY3WMlRQHEbWcSi&version=2" /><param name="bgcolor" value="#000000" /><param name="allowScriptAccess" value="always" /><param name="allowFullScreen" value="true" /><param name="flashvars" value="embedType=noscriptObjectTag&embedCode=94YW1uOtOnnQ_pXMRUY3WMlRQHEbWcSi&autoplay=1" /><embed src="http://player.ooyala.com/player.swf?embedCode=94YW1uOtOnnQ_pXMRUY3WMlRQHEbWcSi&version=2" bgcolor="#000000" width="537" height="301" name="ooyalaPlayer_7hmob_g0si3x83" align="middle" play="true" loop="false" allowscriptaccess="always" allowfullscreen="true" type="application/x-shockwave-flash" flashvars="&embedCode=94YW1uOtOnnQ_pXMRUY3WMlRQHEbWcSi&autoplay=1" pluginspage="http://www.adobe.com/go/getflashplayer"></embed></object></noscript>
+                </div>
+            </div>
+            <div id="buy-it-today-home">
+                <ul id="buyIt">
+                    <li id="Today"><a href="http://www.ea.com/games/nerf2-elite" onclick="omniLinkCall(this,'preorder_link_click');"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div id="pre-order-callout-row">
+            <div id="see-it-home" class="">
+            </div>
+            <ul id="in-action">
+                <li id="Action-home"><a href="red-reveal/index.html"></a></li>
+            </ul>
+            <h3 id="reveal">Reveal the Elite</h3>
+            <p id="see-it-home-para">Use the Red reveal Decoder Lens to detect enemy weak points, find hidden passages, and unlock new blasters.</p>
+            <div id="browse-blasters-home">
+            </div>
+            <ul id="browse-blaster">
+                <li id="browse-blaster-btn"><a href="blasters/index.html"></a></li>
+            </ul>
+            <h3 id="training-mission">Blaster Cards</h3>
+            <p id="blaster-card-para">Check out a customized version of your favorite blaster and print out a target to practice your blasting skills.</p>
+            <div id="play-it-home">
+                
+            </div>
+            <ul id="playitnow">
+                <li id="play-now-home"><a href="training/index.html"></a></li>
+            </ul>
+            <h3 id="blaster-cards">Play Training Missions</h3>
+            <p id="play-it-home-para">Do you have what it takes to become N-Strike Elite?  Try the training mission to see if you are good enough to get on the leaderboard!</p>
+            <br /><br /><br />
+        </div>
+
+        <div class="clear"></div>
+        <div id="hContainer"></div>
+        
+        <div id="footer">
+
+		    <a id="rating_rp" title="Rating Pending" href="http://www.esrb.org/ratings/ratings_guide.jsp" target="_blank">
+			    <img src="_ui/img/rating_e10.gif" alt="Rating Pending" />
+		    </a>
+    		
+		    <a id="logo_wii" title="wii.com" href="http://www.wii.com" target="_blank">
+			    <img src="_ui/img/logo_wii.gif" alt="wii.com" />
+		    </a>
+
+		    <p id="footer_copy">
+			    Game code and certain audio visual materials &copy; 2009 Electronic Arts Inc. All Rights Reserved.  HASBRO and its logo, NERF and N-STRIKE are trademarks of Hasbro and are used with permission. &copy; 2009 Hasbro. All Rights Reserved.  All other trademarks are the property of their respective owners.
+		    </p>
+
+		    <div id="footer_logos">
+			    <ul>
+    				
+				    <li class="last">
+					    <a id="logo_hasbro" title="Hasbro.com" href="http://hasbro.com" target="_blank">
+						    
+					    </a>
+				    </li>
+				    
+				    <li>
+					    <a id="logo_ea" title="EA.com" href="http://www.ea.com" target="_blank">
+						   
+					    </a>
+				    </li>
+    				
+			    </ul>
+		    </div>
+
+		    <div class="clear"></div>
+		    <div id="footer-rule"></div>
+
+		    <div id="footer_links">
+
+			    <dl class="ea-platform-menu">
+				    <dt>Popular Platforms</dt>
+				    <dd><a href="http://www.ea.com/wii/" rel="nofollow" target="_blank">Wii</a></dd>
+				    <dd><a href="http://www.ea.com/platform/pc-games" rel="nofollow" target="_blank">PC</a></dd>
+				    <dd><a href="http://www.ea.com/platform/online-games" rel="nofollow" target="_blank">Online</a></dd>
+				    <dd><a href="http://www.ea.com/platform/xbox-360-games" rel="nofollow" target="_blank">Xbox 360</a></dd>
+				    <dd><a href="http://www.ea.com/platform/ps3-games" rel="nofollow" target="_blank">PS3</a></dd>
+				    <dd><a href="http://www.ea.com/platform/ps2-games" rel="nofollow" target="_blank">PlayStation 2</a></dd>
+				    <dd><a href="http://www.ea.com/platform/nds-games" rel="nofollow" target="_blank">Nintendo DS</a></dd>
+				    <dd><a href="http://www.eamobile.com" rel="nofollow" target="_blank">Mobile</a></dd>
+			    </dl>
+
+			    <dl class="ea-genres-menu">
+				    <dt>Popular Genres</dt>
+				    <dd><a href="http://www.ea.com/genre/racing-games" rel="nofollow" target="_blank">Racing</a></dd>
+				    <dd><a href="http://www.ea.com/genre/shooting-games" rel="nofollow" target="_blank">Shooting</a></dd>
+				    <dd><a href="http://www.ea.com/genre/puzzle-games" rel="nofollow" target="_blank">Puzzle</a></dd>
+				    <dd><a href="http://www.ea.com/genre/rpg-games" rel="nofollow" target="_blank">RPG</a></dd>
+				    <dd><a href="http://www.ea.com/genre/kids-games" rel="nofollow" target="_blank">Kids</a></dd>
+				    <dd><a href="http://www.ea.com/genre/strategy-games" rel="nofollow" target="_blank">Strategy</a></dd>
+				    <dd><a href="http://www.ea.com/genre/simulation-games" rel="nofollow" target="_blank">Simulation</a></dd>
+				    <dd><a href="http://www.easports.com" rel="nofollow" target="_blank">Sports</a></dd>
+			    </dl>
+
+			    <dl class="ea-dot-com-menu">
+				    <dt>EA.com</dt>
+				    <dd><a href="http://www.ea.com/studio/" rel="nofollow" target="_blank">Media</a></dd>
+				    <dd><a href="http://www.ea.com/news" rel="nofollow" target="_blank">Video Game News</a></dd>
+				    <dd><a href="http://www.ea.com/games" rel="nofollow" target="_blank">Search Games</a></dd>
+				    <dd><a href="http://ea.onlineregister.com" rel="nofollow" target="_blank">Register My Game</a></dd>
+			    </dl>
+
+			    <ul class="ea-corporate-menu">
+				    <li class="first"><a href="https://jobs.ea.com" rel="nofollow" target="_blank">Jobs</a></li>
+				    <li><a href="http://aboutus.ea.com/" rel="nofollow" target="_blank">Corporate Info</a></li>
+				    <li><a href="http://www.ea.com/custom/legal-notices" rel="nofollow">Legal Notices</a></li>
+				    <li><a href="http://www.ea.com/custom/product-eulas" rel="nofollow">Product EULAs and Other Disclosures</a></li>
+				    <li><a href="http://tos.ea.com/legalapp/WEBTERMS/US/en/PC/ " rel="nofollow" target="_blank">Terms of Service</a></li>
+				    <li><a href="http://www.ea.com/2/privacy-policy" rel="nofollow" target="_blank">Privacy Policy <span class="red">Updated</span></a></li>
+			    </ul>
+
+		    </div>
+
+        </div>        
+    
+    </div>
+
+</body>
+</html>
+

@@ -1,0 +1,474 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Blasters</title>
+<link rel="stylesheet" href="../_ui/css/main.css" type="text/css" media="screen" />
+<!--[if lte IE 6]><link href="../_ui/css/ie6.css" rel="stylesheet" type="text/css" media="all" /><![endif]-->
+<!--[if lte IE 7]><link href="../_ui/css/ie7.css" rel="stylesheet" type="text/css" media="all" /><![endif]-->
+<link rel="stylesheet" href="../_ui/css/sifr.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../_ui/css/sIFR-print.css" type="text/css" media="print" />
+<link rel="stylesheet" href="../_ui/css/sIFR-screen.css" type="text/css" media="screen" />
+<script type="text/javascript" src="../_ui/js/sifr.js"></script>
+<script type="text/javascript" src="../_ui/js/sifr-config.js"></script>
+<script type="text/javascript" src="../_ui/js/prototype.js"></script>
+<script type="text/javascript" src="../_ui/js/main.js"></script>
+</head>
+<body id="pageBody" onload="showRedBlaster();">
+
+	<div id="omnitureWrapper" style="display:none;"></div>
+	<script type="text/javascript"> 
+		/* Specify the Report Suite ID(s) to track here */
+		s_imageDisableFlag=0
+		if (window.location.host.toString().match(/\.ea(sports)?\.com$/)) {
+		// live
+		var s_account="eaeacom,eagamenerfelitena,eacasualbrandna,eaeacomna,eastudiohasbrona"
+		} else {
+		// dev
+		var s_account="eaeacomdev"
+		}
+		if (navigator.appName == 'Microsoft Internet Explorer')
+        {
+            var ua = navigator.userAgent;
+            var re  = new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})");
+            if (re.exec(ua) != null) {
+                var rv = parseFloat( RegExp.$1 );
+            }
+        }
+        if (navigator.appName == "Microsoft Internet Explorer" && ( rv == '6' || rv == '7')) {
+            ['agents-on', 'blasters-on', 'training-on', 'downloads-on', 'red-reveal-on', 'see-it-home', 'see-it-blasters'].each(Element.hide);
+        }
+		function showRedBlaster() {
+            if ($('see-it-blasters')) {
+                $('see-it-blasters').observe('mouseover', function(event) {
+                    if (navigator.appName == 'Microsoft Internet Explorer' && rv <= '6') {
+                    }else {
+                        //Effect.Appear('blasters-on');
+                    }
+                });
+//                $('see-it-blasters').observe('mouseout', function(event) {
+//                    setTimeout('Effect.Fade("blasters-on")', 2000);
+//                });
+            }
+        }
+	</script> 
+	<script src="http://www.ea.com/omni/s_code_remote_v02.js" type="text/javascript"></script>
+	<script type="text/javascript"> 
+		s_ea.pageName="NA:US:PLAY:HASBRO:MKT:NERF:NERFELITE:NERFELITE:BLASTERS" 
+		s_ea.prop1="No ID" 
+		s_ea.prop2="NERFELITE" 
+		s_ea.prop3="PLAY" 
+		s_ea.prop4="NERF" 
+		s_ea.prop5="NERFELITE" 
+		s_ea.prop7="HASBRO" 
+		s_ea.prop9="MKT" 
+		s_ea.prop10="Blasters" 
+		s_ea.prop11="NA" 
+		s_ea.prop12="en_US" 
+		s_ea.prop15="General Info" 
+		s_ea.prop17="US" 
+		s_ea.prop18="US:NERFELITE" 
+		s_ea.eVar1="No ID" 
+		s_ea.eVar3="NERFELITE" 
+		s_ea.eVar17="US" 
+		s_ea.eVar18="NA" 
+		s_ea.eVar29=s_ea.setInitValOnce('US:NERFELITE:NERFELITE'); 
+		s_ea.eVar30="US:NERFELITE:NERFELITE" 
+		s_ea.eVar34="PLAY" 
+		/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/ 
+		if((s_imageDisableFlag == null) || (typeof (s_imageDisableFlag) == 'undefined') || (!s_imageDisableFlag)){ 
+		var s_code=s_ea.t();if(s_code)document.write(s_code) 
+		}//--></script> 
+	<!-- End SiteCatalyst code version: H.0. --> 
+	<script type="text/javascript" src="http://www.ea.com/omni/omniture_wrapper.js"></script>
+
+<div id="contentContainer">
+
+        <ul>
+            <li id="nerfHome"><a href="../"><img src="../_ui/img/holder.gif" width="180" height="150" alt="" /></a></li>
+        </ul>
+        <ul id="mailContainer">
+            <li id="mailIcon"><a class="newsletter-popup" href="../newsletter/index.html" onclick="omniLinkCall(this,'newsletter_link_click');"><img src="../_ui/img/holder.gif" width="213" height="26" alt="" /></a></li>
+        </ul>
+        <div id="navBarHolder">
+            <ul id="navBar">
+                <li id="agents_and_enemies"><a href="../agents-and-enemies/index.html"><img src="../_ui/img/holder.gif" width="200" height="45" alt="" /></a></li>
+                <li id="debriefing"><a href="../debriefing/index.html"><img src="../_ui/img/holder.gif" width="120" height="45" alt="" /></a></li>
+                <li id="blasters"><a href="../" class="nav-on"><img src="../_ui/img/holder.gif" width="120" height="45" alt="" /></a></li>
+                <li id="training"><a href="../training/index.html"><img src="../_ui/img/holder.gif" width="120" height="45" alt="" /></a></li>
+                <li id="downloads"><a href="../downloads/index.html"><img src="../_ui/img/holder.gif" width="120" height="45" alt="" /></a></li>
+                <li id="media"><a href="../media/index.html"><img src="../_ui/img/holder.gif" width="120" height="45" alt="" /></a></li>
+            </ul>    
+        </div>
+        <div class="clear"></div>
+        <div id="hold-place">
+        <div id="blastersContainer">
+            
+            <div id="paddingWrapper">
+                <h1 id="blasters-title">Blasters</h1>
+                <h3 id="blasters-subtitle">Let The Foam Fly</h3>
+                
+                <div id="icarus-blaster">
+                    <img src="../_ui/img/holder.gif" class="new-icon" alt="" />
+                    <h3 class="blaster-title">Icarus HM-7</h3>
+                    <ul class="blaster_copy">
+                        <li><span class="yellow-txt">Clip Size:</span> 7 homing darts</li>
+                        <li><span class="yellow-txt">Rate of Fire:</span> One burst every 2 seconds</li>
+                        <li><span class="yellow-txt">Potential Stat Upgrades:</span></li>
+                        <li>Dart damage</li>
+                        <li>Maximum ammo</li>
+                        <li>Reload speed</li>
+                    </ul>
+                    <ul class="blaster-btn">
+                        <li class="blaster-card"><a href="../_ui/pdfs/nerf_blastercard_icarus.pdf"></a></li>
+                    </ul>
+                </div> 
+                
+                <div id="cerberus-blaster">
+                     <img src="../_ui/img/holder.gif" class="new-icon" alt="" />
+                    <h3 class="blaster-title">Cerberus CS-12</h3>
+                    <ul class="blaster_copy">
+                        <li><span class="yellow-txt">Clip Size:</span> 12 missle darts</li>
+                        <li><span class="yellow-txt">Rate of Fire:</span> 0.5 seconds per burst</li>
+                        <li><span class="yellow-txt">Potential Stat Upgrades:</span></li>
+                        <li>Dart damage</li>
+                        <li>Maximum ammo</li>
+                        <li>Rate of fire</li>
+                    </ul>
+                    <ul class="blaster-btn">
+                        <li class="blaster-card"><a href="http://ll.assets.ea.com/nawp/na/u/f/GPO/eaplay/hasbro/hasbro/nerf/nstrike/downloads/blastercards/nerf_blastercard_cerberus.pdf"></a></li>
+                    </ul>
+                </div> 
+                
+                <div id="hammerhead-blaster">
+                     <img src="../_ui/img/holder.gif" class="new-icon" alt="" />
+                    <h3 class="blaster-title">Hammerhead GL-1</h3>
+                    <ul class="blaster_copy">
+                        <li><span class="yellow-txt">Clip Size:</span> 1 Echidna SX grenade</li>
+                        <li><span class="yellow-txt">Rate of Fire:</span> Variable</li>
+                        <li><span class="yellow-txt">Special:</span> On trigger pull, launch an Echidna SX grenade. On second trigger pull, grenade detonates and Hammerhead reloads.</li>
+                        <li><span class="yellow-txt">Potential Stat Upgrades:</span></li>
+                        <li>Explosion damage/radius</li>
+                        <li>Maximum ammo</li>
+                        <li>Reload speed</li>
+                    </ul>
+                    <ul class="blaster-btn">
+                        <li class="blaster-card"><a href="http://ll.assets.ea.com/nawp/na/u/f/GPO/eaplay/hasbro/hasbro/nerf/nstrike/downloads/blastercards/nerf_blastercard_hammerhead.pdf"></a></li>
+                    </ul>
+                </div> 
+                
+                <div id="longstrike-blaster">
+                    <img src="../_ui/img/holder.gif" class="new-icon" alt="" />
+                    <h3 class="blaster-title">Longstrike CS-6</h3>
+                    <ul class="blaster_copy">
+                        <li><span class="yellow-txt">Clip Size:</span> 6 Magnum Darts</li>
+                        <li><span class="yellow-txt">Rate of Fire:</span> 2 seconds per dart</li>
+                        <li><span class="yellow-txt">Scope Power:</span> 4x</li>
+                        <li><span class="yellow-txt">Potential Stat Upgrades:</span></li>
+                        <li>Dart Damage</li>
+                        <li>Maximum ammo</li>
+                        <li>Rate of Fire</li>
+                    </ul>
+                    <ul class="blaster-btn">
+                        <li class="blaster-card"><a href="http://ll.assets.ea.com/nawp/na/u/f/GPO/eaplay/hasbro/hasbro/nerf/nstrike/downloads/blastercards/nerf_blastercard_longstrike.pdf"></a></li>
+                    </ul>
+                </div>
+                
+                <div id="raider-blaster">
+                      <img src="../_ui/img/holder.gif" class="new-icon-too" alt="" />   <img src="../_ui/img/holder.gif" class="real-icon" alt="" />
+                      <h3 class="blaster-title-two">Raider CS-35</h3>
+                      <ul class="blaster_copy-two">
+                        <li><span class="yellow-txt">Clip Size:</span> 35 micro darts</li>
+                        <li><span class="yellow-txt">Rate of Fire:</span> 1 dart per second</li>
+                        <li><span class="yellow-txt">Potential Stat Upgrades:</span></li>
+                        <li>Dart Damage</li>
+                        <li>Reload speed</li>
+                        <li>Rate of Fire</li>
+                    </ul>
+                    <ul class="blaster-btn">
+                        <li class="blaster-card"><a href="http://ll.assets.ea.com/nawp/na/u/f/GPO/eaplay/hasbro/hasbro/nerf/nstrike/downloads/blastercards/nerf_blastercard_re_raider.pdf"></a></li>
+                    </ul>
+                </div> 
+                <div id="maverick-blaster">
+                    <img src="../_ui/img/holder.gif" class="real-icon-only" alt="" />
+                    <h3 class="blaster-title-two-only">Maverick AEU-6</h3>
+                      <ul class="blaster_copy-two">
+                        <li><span class="yellow-txt">Clip Size:</span> 6 micro darts</li>
+                        <li><span class="yellow-txt">Rate of Fire:</span> 2 darts per second</li>
+                        <li><span class="yellow-txt">Potential Stat Upgrades:</span></li>
+                        <li>Dart Damage</li>
+                        <li>Reload speed</li>
+                        <li>Rate of Fire</li>
+                    </ul>
+                    <ul class="blaster-btn">
+                        <li class="blaster-card"><a href="http://ll.assets.ea.com/nawp/na/u/f/GPO/eaplay/hasbro/hasbro/nerf/nstrike/downloads/blastercards/nerf_blastercard_re_maverick.pdf"></a></li>
+                    </ul>
+                </div>
+                <div id="longshot-blaster">
+                    <img src="../_ui/img/holder.gif" class="real-icon-only" alt="" />
+                    <h3 class="blaster-title-two-only">Longshot CS-6</h3>
+                      <ul class="blaster_copy-two">
+                        <li><span class="yellow-txt">Clip Size:</span> 6 micro darts</li>
+                        <li><span class="yellow-txt">Rate of Fire:</span> 1 dart per second</li>
+                        <li><span class="yellow-txt">Scope power:</span> 3x</li>
+                        <li><span class="yellow-txt">Potential Stat Upgrades:</span></li>
+                        <li>Dart Damage</li>
+                        <li>Maximum ammo</li>
+                        <li>Rate of Fire</li>
+                    </ul>
+                    <ul class="blaster-btn">
+                        <li class="blaster-card"><a href="http://ll.assets.ea.com/nawp/na/u/f/GPO/eaplay/hasbro/hasbro/nerf/nstrike/downloads/blastercards/nerf_blastercard_re_ longshot.pdf "></a></li>
+                    </ul>
+                </div>
+                <div id="vulcan-blaster">
+                    <img src="../_ui/img/holder.gif" class="real-icon-only" alt="" />
+                    <h3 class="blaster-title-two-only">Vulcan EBF-25</h3>
+                      <ul class="blaster_copy-two">
+                        <li><span class="yellow-txt">Clip Size:</span> 25 micro darts</li>
+                        <li><span class="yellow-txt">Rate of Fire:</span> 3 darts per second</li>
+                        <li><span class="yellow-txt">Special:</span> Fully automatic</li>
+                        <li><span class="yellow-txt">Potential Stat Upgrades:</span></li>
+                        <li>Dart Damage</li>
+                        <li>Maximum ammo</li>
+                        <li>Rate of Fire</li>
+                    </ul>
+                    <ul class="blaster-btn">
+                        <li class="blaster-card"><a href="http://ll.assets.ea.com/nawp/na/u/f/GPO/eaplay/hasbro/hasbro/nerf/nstrike/downloads/blastercards/nerf_blastercard_re_vulcan.pdf"></a></li>
+                    </ul>
+                </div>
+                <div id="recon-blaster">
+                    <img src="../_ui/img/shim.gif" class="placeholder" alt="" />
+                    <h3 class="blaster-title-three-only">Vulcan EBF-25</h3>
+                      <ul class="blaster_copy-two">
+                        <li><span class="yellow-txt">Clip Size:</span> 6 micro darts</li>
+                        <li><span class="yellow-txt">Rate of Fire:</span> 1 dart per second</li>
+                        <li><span class="yellow-txt">Scope Power:</span> 1.5x</li>
+                        <li><span class="yellow-txt">Potential Stat Upgrades:</span></li>
+                        <li>Dart Damage</li>
+                        <li>Maximum ammo</li>
+                        <li>Rate of Fire</li>
+                    </ul>
+                    <ul class="blaster-btn">
+                        <li class="blaster-card"><a href="http://ll.assets.ea.com/nawp/na/u/f/GPO/eaplay/hasbro/hasbro/nerf/nstrike/downloads/blastercards/nerf_blastercard_recon.pdf"></a></li>
+                    </ul>
+                </div>
+                <div id="crusher-blaster">
+                    <img src="../_ui/img/shim.gif" class="placeholder" alt="" />
+                    <h3 class="blaster-title-three-only">Crusher SAD-G</h3>
+                    <ul class="blaster_copy-two">
+                        <li><span class="yellow-txt">Clip Size:</span> 12 Crusher balls</li>
+                        <li><span class="yellow-txt">Rate of Fire:</span> 2 balls per second</li>
+                        <li><span class="yellow-txt">Potential Stat Upgrades:</span></li>
+                        <li>Dart Damage</li>
+                        <li>Maximum ammo</li>
+                        <li>Rate of Fire</li>
+                    </ul>
+                    <ul class="blaster-btn">
+                        <li class="blaster-card"><a href="http://ll.assets.ea.com/nawp/na/u/f/GPO/eaplay/hasbro/hasbro/nerf/nstrike/downloads/blastercards/nerf_blastercard_crusher.pdf"></a></li>
+                    </ul>
+                </div>
+                <div id="goliathan-blaster">
+                    <img src="../_ui/img/shim.gif" class="placeholder" alt="" />
+                    <h3 class="blaster-title-three-only">Goliathan UB-1</h3>
+                    <ul class="blaster_copy-two">
+                        <li><span class="yellow-txt">Clip Size:</span> 1 mammoth dart</li>
+                        <li><span class="yellow-txt">Rate of Fire:</span> 1 dart every 2 seconds</li>
+                        <li><span class="yellow-txt">Potential Stat Upgrades:</span></li>
+                        <li>Dart Damage</li>
+                        <li>Maximum ammo</li>
+                        <li>Reload speed</li>
+                    </ul>
+                    <ul class="blaster-btn">
+                        <li class="blaster-card"><a href="http://ll.assets.ea.com/nawp/na/u/f/GPO/eaplay/hasbro/hasbro/nerf/nstrike/downloads/blastercards/nerf_blastercard_goliathan.pdf"></a></li>
+                    </ul>
+                </div>
+                <div id="hydra-blaster">
+                    <img src="../_ui/img/shim.gif" class="placeholder" alt="" />
+                    <h3 class="blaster-title-three-only">Hydra SG-1</h3>
+                    <ul class="blaster_copy-two">
+                        <li><span class="yellow-txt">Clip Size:</span> 7</li>
+                        <li><span class="yellow-txt">Rate of Fire:</span> 2 seconds per burst</li>
+                        <li><span class="yellow-txt">Special:</span> Shotgun burst (7 darts)</li>
+                        <li><span class="yellow-txt">Potential Stat Upgrades:</span></li>
+                        <li>Dart Damage</li>
+                        <li>Maximum ammo</li>
+                        <li>Reload speed</li>
+                    </ul>
+                    <ul class="blaster-btn">
+                        <li class="blaster-card"><a href="http://ll.assets.ea.com/nawp/na/u/f/GPO/eaplay/hasbro/hasbro/nerf/nstrike/downloads/blastercards/nerf_blastercard_hydra.pdf"></a></li>
+                    </ul>
+                </div>
+                <div id="semperfire-blaster">
+                    <img src="../_ui/img/shim.gif" class="placeholder" alt="" />
+                    <h3 class="blaster-title-three-only">Semperfire RF-100</h3>
+                    <ul class="blaster_copy-two">
+                        <li><span class="yellow-txt">Clip Size:</span> 100</li>
+                        <li><span class="yellow-txt">Rate of Fire:</span> 5 darts per second</li>
+                        <li><span class="yellow-txt">Special:</span> Fully automatic</li>
+                        <li><span class="yellow-txt">Potential Stat Upgrades:</span></li>
+                        <li>Dart Damage</li>
+                        <li>Maximum ammo</li>
+                        <li>Rate of fire</li>
+                    </ul>
+                    <ul class="blaster-btn">
+                        <li class="blaster-card"><a href="http://ll.assets.ea.com/nawp/na/u/f/GPO/eaplay/hasbro/hasbro/nerf/nstrike/downloads/blastercards/nerf_blastercard_semperfire.pdf"></a></li>
+                    </ul>
+                </div>
+                <div id="spartan-blaster">
+                    <img src="../_ui/img/shim.gif" class="placeholder" alt="" />
+                    <h3 class="blaster-title-three-only">Spartan NCS-12</h3>
+                    <ul class="blaster_copy-two">
+                        <li><span class="yellow-txt">Clip Size:</span> 12 micro darts</li>
+                        <li><span class="yellow-txt">Rate of Fire:</span> 6 darts per second</li>
+                        <li><span class="yellow-txt">Special:</span> 3 dart rapid fire bursts</li>
+                        <li><span class="yellow-txt">Potential Stat Upgrades:</span></li>
+                        <li>Dart Damage</li>
+                        <li>Maximum ammo</li>
+                        <li>Rate of fire (shortens delay between bursts)</li>
+                    </ul>
+                    <ul class="blaster-btn">
+                        <li class="blaster-card"><a href="http://ll.assets.ea.com/nawp/na/u/f/GPO/eaplay/hasbro/hasbro/nerf/nstrike/downloads/blastercards/nerf_blastercard_spartan.pdf"></a></li>
+                    </ul>
+                </div>
+                <div id="stampede-blaster">
+                    <img src="../_ui/img/shim.gif" class="placeholder" alt="" />
+                    <h3 class="blaster-title-three-only">Stampede REV-12</h3>
+                    <ul class="blaster_copy-two">
+                        <li><span class="yellow-txt">Clip Size:</span> 12 micro darts</li>
+                        <li><span class="yellow-txt">Rate of Fire:</span> 0.5 seconds per burst</li>
+                        <li><span class="yellow-txt">Potential Stat Upgrades:</span></li>
+                        <li>Dart Damage</li>
+                        <li>Reload speed</li>
+                        <li>Rate of fire</li>
+                    </ul>
+                    <ul class="blaster-btn">
+                        <li class="blaster-card"><a href="http://ll.assets.ea.com/nawp/na/u/f/GPO/eaplay/hasbro/hasbro/nerf/nstrike/downloads/blastercards/nerf_blastercard_stampede.pdf"></a></li>
+                    </ul>
+                </div>
+                <div id="vengeance-blaster">
+                    <img src="../_ui/img/shim.gif" class="placeholder" alt="" />
+                    <h3 class="blaster-title-three-only">Vengeance REV-8</h3>
+                    <ul class="blaster_copy-two">
+                        <li><span class="yellow-txt">Clip Size:</span> 8 magnum darts</li>
+                        <li><span class="yellow-txt">Rate of Fire:</span> 1.5 darts per second</li>
+                        <li><span class="yellow-txt">Scope Power:</span> 2x</li>
+                        <li><span class="yellow-txt">Potential Stat Upgrades:</span></li>
+                        <li>Dart Damage</li>
+                        <li>Reload speed</li>
+                        <li>Rate of fire</li>
+                    </ul>
+                    <ul class="blaster-btn">
+                        <li class="blaster-card"><a href="http://ll.assets.ea.com/nawp/na/u/f/GPO/eaplay/hasbro/hasbro/nerf/nstrike/downloads/blastercards/nerf_blastercard_vengeance.pdf"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="clear"></div>
+        <div id="callout-blasterWrapper">
+            <div id="buy-it-today">
+                <ul id="buyIt">
+                    <li id="Today-debriefing"><a href="http://www.ea.com/games/nerf2-elite"></a></li>
+                </ul>
+            </div>
+            <div id="play-it">
+                <ul id="playitnow">
+                    <li id="play-now"><a href="../training/index.html"></a></li>
+                </ul>
+            </div>
+            <div id="see-it-blasters">
+                <ul id="in-action">
+                    <li id="Action"><a href="../red-reveal/index.html"></a></li>
+                </ul>
+            </div>
+            <div id="blasters-on" style="display:none;"></div>
+        </div>
+        <div class="clear"></div>
+        <div id="iiiContainer"></div>
+        <div class="clear"></div>
+        
+        <div id="footer">
+
+		    <a id="rating_rp" title="Rating Pending" href="http://www.esrb.org/ratings/ratings_guide.jsp" target="_blank">
+			    <img src="../_ui/img/rating_e10.gif" alt="Rating Pending" />
+		    </a>
+    		
+		    <a id="logo_wii" title="wii.com" href="http://www.wii.com" target="_blank">
+			    <img src="../_ui/img/logo_wii.gif" alt="wii.com" />
+		    </a>
+
+		    <p id="footer_copy">
+			    Game code and certain audio visual materials &copy; 2009 Electronic Arts Inc. All Rights Reserved.  HASBRO and its logo, NERF and N-STRIKE are trademarks of Hasbro and are used with permission. &copy; 2009 Hasbro. All Rights Reserved.  All other trademarks are the property of their respective owners.
+		    </p>
+
+		    <div id="footer_logos">
+			    <ul>
+    				
+				    <li class="last">
+					    <a id="logo_hasbro" title="Hasbro.com" href="http://hasbro.com" target="_blank">
+						    
+					    </a>
+				    </li>
+				    
+				    <li>
+					    <a id="logo_ea" title="EA.com" href="http://www.ea.com" target="_blank">
+						   
+					    </a>
+				    </li>
+    				
+			    </ul>
+		    </div>
+
+		    <div class="clear"></div>
+		    <div id="footer-rule"></div>
+
+		    <div id="footer_links">
+
+			    <dl class="ea-platform-menu">
+				    <dt>Popular Platforms</dt>
+				    <dd><a href="http://www.ea.com/wii/" rel="nofollow" target="_blank">Wii</a></dd>
+				    <dd><a href="http://www.ea.com/platform/pc-games" rel="nofollow" target="_blank">PC</a></dd>
+				    <dd><a href="http://www.ea.com/platform/online-games" rel="nofollow" target="_blank">Online</a></dd>
+				    <dd><a href="http://www.ea.com/platform/xbox-360-games" rel="nofollow" target="_blank">Xbox 360</a></dd>
+				    <dd><a href="http://www.ea.com/platform/ps3-games" rel="nofollow" target="_blank">PS3</a></dd>
+				    <dd><a href="http://www.ea.com/platform/ps2-games" rel="nofollow" target="_blank">PlayStation 2</a></dd>
+				    <dd><a href="http://www.ea.com/platform/nds-games" rel="nofollow" target="_blank">Nintendo DS</a></dd>
+				    <dd><a href="http://www.eamobile.com" rel="nofollow" target="_blank">Mobile</a></dd>
+			    </dl>
+
+			    <dl class="ea-genres-menu">
+				    <dt>Popular Genres</dt>
+				    <dd><a href="http://www.ea.com/genre/racing-games" rel="nofollow" target="_blank">Racing</a></dd>
+				    <dd><a href="http://www.ea.com/genre/shooting-games" rel="nofollow" target="_blank">Shooting</a></dd>
+				    <dd><a href="http://www.ea.com/genre/puzzle-games" rel="nofollow" target="_blank">Puzzle</a></dd>
+				    <dd><a href="http://www.ea.com/genre/rpg-games" rel="nofollow" target="_blank">RPG</a></dd>
+				    <dd><a href="http://www.ea.com/genre/kids-games" rel="nofollow" target="_blank">Kids</a></dd>
+				    <dd><a href="http://www.ea.com/genre/strategy-games" rel="nofollow" target="_blank">Strategy</a></dd>
+				    <dd><a href="http://www.ea.com/genre/simulation-games" rel="nofollow" target="_blank">Simulation</a></dd>
+				    <dd><a href="http://www.easports.com" rel="nofollow" target="_blank">Sports</a></dd>
+			    </dl>
+
+			    <dl class="ea-dot-com-menu">
+				    <dt>EA.com</dt>
+				    <dd><a href="http://www.ea.com/studio/" rel="nofollow" target="_blank">Media</a></dd>
+				    <dd><a href="http://www.ea.com/news" rel="nofollow" target="_blank">Video Game News</a></dd>
+				    <dd><a href="http://www.ea.com/games" rel="nofollow" target="_blank">Search Games</a></dd>
+				    <dd><a href="http://ea.onlineregister.com" rel="nofollow" target="_blank">Register My Game</a></dd>
+			    </dl>
+
+			    <ul class="ea-corporate-menu">
+				    <li class="first"><a href="https://jobs.ea.com" rel="nofollow" target="_blank">Jobs</a></li>
+				    <li><a href="http://aboutus.ea.com/" rel="nofollow" target="_blank">Corporate Info</a></li>
+				    <li><a href="http://www.ea.com/custom/legal-notices" rel="nofollow">Legal Notices</a></li>
+				    <li><a href="http://www.ea.com/custom/product-eulas" rel="nofollow">Product EULAs and Other Disclosures</a></li>
+				    <li><a href="http://tos.ea.com/legalapp/WEBTERMS/US/en/PC/ " rel="nofollow" target="_blank">Terms of Service</a></li>
+				    <li><a href="http://www.ea.com/2/privacy-policy" rel="nofollow" target="_blank">Privacy Policy <span class="red">Updated</span></a></li>
+			    </ul>
+
+		    </div>
+
+        </div>
+</div>
+
+</body>
+</html>
